@@ -1,0 +1,8 @@
+module CSQLite {
+	header "sqlite3.h"
+	link "CSQLite"
+	export *
+	
+	link "pthread"
+	link "dl"
+}
